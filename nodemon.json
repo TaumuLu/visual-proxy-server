@@ -1,0 +1,6 @@
+{
+  "watch": ["../server"],
+  "ignore": ["node_modules", "web", "build"],
+  "ext": "js json html",
+  "exec": "node"
+}

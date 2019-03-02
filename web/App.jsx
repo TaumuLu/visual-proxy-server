@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import logo from './files/logo.svg';
+import { Button } from 'antd';
 
-import './styles/app.less';
+import './styles/app.scss';
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -20,6 +19,7 @@ export default class App extends Component {
           >
             Learn React
           </a>
+          <Button>测试按钮</Button>
         </header>
       </div>
     );

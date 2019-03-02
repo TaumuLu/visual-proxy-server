@@ -31,6 +31,7 @@ const babelLoaders = [
         ['@babel/plugin-proposal-class-properties', { loose: false }],
         '@babel/plugin-syntax-dynamic-import',
         '@babel/plugin-transform-runtime',
+        ['import', { libraryName: 'antd', style: true }],
       ],
     },
   },
