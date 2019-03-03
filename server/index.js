@@ -23,6 +23,10 @@ const app = new Koa();
 app.use(logger());
 
 // app.use(lissom(config));
+// app.use(async (ctx, next) => {
+//   console.log(111111, ctx.url);
+//   await next();
+// });
 
 app.use(staticServe(path.join(context, './build')));
 
